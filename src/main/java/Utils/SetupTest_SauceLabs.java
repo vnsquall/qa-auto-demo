@@ -13,7 +13,7 @@ import static Utils.Helpers.driver;
 /**
  * Created by khanh.nguyen on 5/27/2015.
  */
-public class SetupTest {
+public class SetupTest_SauceLabs {
     /**
      * Creates a new {@link RemoteWebDriver} instance to be used to run WebDriver tests using Sauce.
      *

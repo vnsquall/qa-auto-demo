@@ -1,17 +1,17 @@
 package TestCases;
 
 import PageObjects.BasicAuthPage;
-import Utils.SetupTest;
+import Utils.SetupTest_SauceLabs;
 import org.testng.annotations.Test;
 
 /**
  * Created by khanh.nguyen on 5/27/2015.
  */
-public class BasicAuthTest extends SetupTest {
+public class BasicAuthTestSauceLabs extends SetupTest_SauceLabs {
 
     @Test
     public void test_BasicAuthPage(){
-        BasicAuthPage.basicAuthLoaded();
         BasicAuthPage.basicAuthLogin();
+        BasicAuthPage.basicAuthLoaded();
     }
 }

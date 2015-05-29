@@ -1,8 +1,10 @@
 package PageObjects;
 
-import Utils.Helpers;
-import org.testng.Assert;
 import org.openqa.selenium.By;
+import org.testng.Assert;
+
+import static Utils.Helpers.driver;
+import static Utils.Helpers.find_element;
 
 /**
  * Created by khanh.nguyen on 5/27/2015.
@@ -12,13 +14,14 @@ public class BasicAuthPage {
     public static By congratText = By.cssSelector("p");
 
     public static void basicAuthLoaded(){
-        Helpers.find_element(basicAuthLink).click();
+        find_element(basicAuthLink).click();
     }
 
     public static void basicAuthLogin() {
-        Helpers.driver.get("http://admin:admin@the-internet.herokuapp.com/basic_auth");
-        Assert.assertEquals(Helpers.find_element(congratText).getText(),
+        driver.get("http://admin:admin@the-internet.herokuapp.com/basic_auth");
+        Assert.assertEquals(find_element(congratText).getText(),
                 "Congratulations! You must have the proper credentials.",
                 "Congrats Text NOT FOUND!");
+        driver.navigate().back();
     }
 }
