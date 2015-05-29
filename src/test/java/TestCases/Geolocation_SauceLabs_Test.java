@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by khanh.nguyen on 5/27/2015.
  */
-public class GeolocationTestSauceLabs extends SetupTest_SauceLabs {
+public class Geolocation_SauceLabs_Test extends SetupTest_SauceLabs {
 
     @Test
     public void test_Geolocation(){

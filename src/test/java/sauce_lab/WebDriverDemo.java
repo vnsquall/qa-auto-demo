@@ -1,7 +1,6 @@
 package sauce_lab;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
@@ -15,10 +14,12 @@ import static org.testng.Assert.assertEquals;
  * Simple {@link RemoteWebDriver} test that demonstrates how to run your Selenium tests with <a href="http://saucelabs.com/ondemand">Sauce OnDemand</a>.
  *
  * @author Ross Rowe
+ * To run this test: change filename to To run this test: change filename to WebDriverTest
+ *
  */
-public class WebDriverTest {
+public class WebDriverDemo {
 
-    private WebDriver driver;
+    private org.openqa.selenium.WebDriver driver;
 
     /**
      * Creates a new {@link RemoteWebDriver} instance to be used to run WebDriver tests using Sauce.

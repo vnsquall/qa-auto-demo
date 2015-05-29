@@ -2,6 +2,11 @@ package sauce_lab;
 
 /**
  * @author Ross Rowe
+ *
+ * To run this test: change filename to SampleSauceTest
+ *
+ *
+ *
  */
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
@@ -29,7 +34,7 @@ import static org.testng.Assert.assertEquals;
  * @author Ross Rowe
  */
 @Listeners({SauceOnDemandTestListener.class})
-public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnDemandAuthenticationProvider {
+public class SampleSauce implements SauceOnDemandSessionIdProvider, SauceOnDemandAuthenticationProvider {
 
     /**
      * Constructs a {@link SauceOnDemandAuthentication} instance using the supplied user name/access key.  To use the authentication

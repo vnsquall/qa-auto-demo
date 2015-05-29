@@ -18,8 +18,10 @@ import static org.testng.Assert.*;
 
 /**
  * @author Ross Rowe
+ * To run this test: change filename to WebDriverDemoShootoutTest
+ *
  */
-public class WebDriverDemoShootoutTest {
+public class WebDriverDemoShootout {
 
     private SauceOnDemandAuthentication authentication = new SauceOnDemandAuthentication("vnsquall", "23c1faf1-4616-4820-bcb8-d9f7b91562f1");
 
