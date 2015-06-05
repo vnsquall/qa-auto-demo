@@ -1,4 +1,4 @@
-package TestCases;
+package TestCases_SauceLabs;
 
 import PageObjects.GeolocationPage;
 import Utils.SetupTest_SauceLabs;

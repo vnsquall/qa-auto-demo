@@ -1,4 +1,4 @@
-package TestCases;
+package TestCases_SauceLabs;
 
 import PageObjects.BasicAuthPage;
 import Utils.SetupTest_SauceLabs;

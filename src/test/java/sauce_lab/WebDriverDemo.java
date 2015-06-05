@@ -1,4 +1,4 @@
-package sauce_lab;
+package Sauce_lab;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;

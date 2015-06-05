@@ -1,4 +1,4 @@
-package sauce_lab;
+package Sauce_lab;
 
 /**
  * @author Ross Rowe

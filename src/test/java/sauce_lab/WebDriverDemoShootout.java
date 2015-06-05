@@ -1,4 +1,4 @@
-package sauce_lab;
+package Sauce_lab;
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
 import org.openqa.selenium.By;
